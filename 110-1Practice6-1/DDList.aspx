@@ -11,6 +11,9 @@
     <form id="form1" runat="server">
         <div>
         </div>
+        <asp:DropDownList ID="ddl_Area" runat="server" OnSelectedIndexChanged="ddl_Area_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
+        <br />
+        <asp:DropDownList ID="ddl_Place" runat="server"></asp:DropDownList>
     </form>
 </body>
 </html>
