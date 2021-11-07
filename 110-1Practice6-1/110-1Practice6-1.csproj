@@ -68,8 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CheckBox.aspx" />
+    <Content Include="CheckBoxCom.aspx" />
     <Content Include="DDList.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="RadioBut.aspx" />
+    <Content Include="RadioButCom.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +82,13 @@
     </Compile>
     <Compile Include="CheckBox.aspx.designer.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBoxCom.aspx.cs">
+      <DependentUpon>CheckBoxCom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckBoxCom.aspx.designer.cs">
+      <DependentUpon>CheckBoxCom.aspx</DependentUpon>
     </Compile>
     <Compile Include="DDList.aspx.cs">
       <DependentUpon>DDList.aspx</DependentUpon>
@@ -91,6 +101,20 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadioBut.aspx.cs">
+      <DependentUpon>RadioBut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadioBut.aspx.designer.cs">
+      <DependentUpon>RadioBut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RadioButCom.aspx.cs">
+      <DependentUpon>RadioButCom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadioButCom.aspx.designer.cs">
+      <DependentUpon>RadioButCom.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
